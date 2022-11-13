@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #000000;
+}
+
+button {
+    background: none;
+    border-color: yellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    box-shadow: 0 0 10px yellow;
+    background: yellow;
+    transition: 0.5s;
+}
+
+section
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
